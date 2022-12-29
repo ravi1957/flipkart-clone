@@ -1,0 +1,205 @@
+ * {
+     margin: 0;
+     padding: 0;
+     /* box-sizing: border-box; */
+
+ }
+
+ body {
+     background-color: #f1f3f6;
+ }
+
+ nav {
+     background-color: #2874f0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 8px 0px;
+     font-family: 'Public Sans', sans-serif;
+ }
+
+ img {
+     cursor: pointer;
+ }
+
+ .explore {
+     color: #fff;
+     position: relative;
+     top: -5;
+     font-size: 12px;
+     cursor: pointer;
+ }
+
+ .plus {
+     color: yellow;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .search {
+     background-color: #fff;
+     padding: 8px;
+     width: 480px;
+     height: 20px;
+     margin: 0px 15px;
+     display: flex;
+     justify-content: space-between;
+     color: #2874f0;
+     box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+         7px 7px 10px rgba(0, 0, 0, 0.1);
+     border-radius: 2px;
+     /* cursor: pointer; */
+ }
+
+ .fa-magnifying-glass {
+     cursor: pointer;
+     margin-top: 2px;
+ }
+
+ .search input {
+     width: 388px;
+     border: none;
+     outline: none;
+     font-size: 14px;
+ }
+
+ .login {
+     padding: 7px 40px;
+     font-size: 16px;
+     font-weight: 550;
+     border: none;
+     outline: none;
+     color: #2874f0;
+     background-color: #fff;
+     cursor: pointer;
+     border-radius: 2px;
+ }
+
+ .nav-link {
+     margin: 0px 20px;
+     font-size: 15px;
+     color: #fff;
+     text-decoration: none;
+     font-weight: 600;
+ }
+
+ .fa-angle-down {
+     font-size: 10px;
+     opacity: .7;
+ }
+
+ .fa-cart-shopping {
+     font-size: 15px;
+ }
+
+ #b-txt {
+     text-decoration: none;
+ }
+
+ #b-txt:hover {
+     text-decoration: underline;
+     text-decoration-color: #fff;
+ }
+
+ .bread-crumb {
+     position: relative;
+     /* border: 2px solid red; */
+     padding: 5px 90px;
+     box-sizing: border-box;
+     background-color: #fff;
+ }
+
+ .categories {
+     /* border: 2px solid blue; */
+     padding: 3px 4px 6px;
+     box-sizing: border-box;
+     display: inline-block;
+     width: 8vw;
+     margin: 0px auto;
+ }
+
+ .grocery-link {
+     text-decoration: none;
+     color: black;
+     font-weight: 600;
+     font-family: Roboto, Arial, sans-serif;
+     font-size: 12px;
+ }
+
+ .category-img {
+     /* margin-left: 36px; */
+     margin: 0px 32px;
+     background: transparent;
+ }
+
+ .grocery-text {
+     /* align-items: center; */
+     padding: 0px 10px 2px 30px;
+     box-sizing: border-box;
+     /* border: 2px solid red; */
+     width: 8vw;
+     display: inline-block;
+     margin: 0px auto;
+ }
+
+ .grocery-link:hover {
+     color: blue;
+ }
+
+ .slider {
+     border: none;
+     height: 300px;
+     margin: 3px 5px;
+     background-color: rgb(247, 230, 230);
+ }
+
+ .slider {
+     background: url(/img/laptop.jpg) no-repeat center center/cover;
+ }
+
+ .product-gallery{
+    border: 2px solid black;
+    padding: 10px 30px;
+    margin: 3px 5px;
+    background-color: #fff;
+ }
+
+ .products{
+    /* border: 2px solid green; */
+    padding: 3px 4px 6px 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 15vw;
+    margin: 0px 25px;
+
+ }
+ .product-link{
+    text-decoration: none;
+    color: black;
+    /* font-weight: 600; */
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;  
+    margin: 20px 0px 10px 2px;
+    line-height: 20px;
+ }
+ .link-size{
+    font-size: 13px;
+    margin: 2px px;
+ }
+ .desc-offer{
+    color: green;
+    margin-left: 20px;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+ }
+
+ .denver{
+    font-size: 13px;
+    margin: 0px 16px;
+    color: grey;
+ }
+
+ /* .products:hover{
+    height: 16vh;
+    width:  16vh;
+ } */
